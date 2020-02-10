@@ -43,7 +43,7 @@ private:
 
 	const int m_NUM_TRIANGLE_POINTS = 3;
 
-	const int m_NUM_VERTICES = 8;
+	const int m_NUM_VERTICES = 24;
 };
 
 #endif

@@ -117,11 +117,11 @@ void Game::initialize()
 	vertex[7].coordinate[2] = -0.5f;
 
 	vertex[8].coordinate[0] = -0.5f;
-	vertex[8].coordinate[1] = 0.5f;
-	vertex[8].coordinate[2] = -0.5f;
+	vertex[8].coordinate[1] = -0.5f;
+	vertex[8].coordinate[2] = 0.5f;
 
-	vertex[9].coordinate[0] = 0.5f;
-	vertex[9].coordinate[1] = 0.5f;
+	vertex[9].coordinate[0] = -0.5f;
+	vertex[9].coordinate[1] = -0.5f;
 	vertex[9].coordinate[2] = -0.5f;
 
 	vertex[10].coordinate[0] = 0.5f;
@@ -179,102 +179,7 @@ void Game::initialize()
 	vertex[23].coordinate[0] = -0.5f;
 	vertex[23].coordinate[1] = 0.5f;
 	vertex[23].coordinate[2] = -0.5f;
-	/*vertex[0].coordinate[0] = -0.5f;
-	vertex[0].coordinate[1] = -0.5f;
-	vertex[0].coordinate[2] = 0.5f;
-
-	vertex[1].coordinate[0] = 0.5f;
-	vertex[1].coordinate[1] = -0.5f;
-	vertex[1].coordinate[2] = 0.5f;
-
-	vertex[2].coordinate[0] = 0.5f;
-	vertex[2].coordinate[1] = 0.5f;
-	vertex[2].coordinate[2] = 0.5f;
-
-	vertex[3].coordinate[0] = -0.5f;
-	vertex[3].coordinate[1] = 0.5f;
-	vertex[3].coordinate[2] = 0.5f;
-
-	vertex[4].coordinate[0] = 0.5f;
-	vertex[4].coordinate[1] = -0.5f;
-	vertex[4].coordinate[2] = 0.5f;
-
-	vertex[5].coordinate[0] = 0.5f;
-	vertex[5].coordinate[1] = -0.5f;
-	vertex[5].coordinate[2] = -0.5f;
-
-	vertex[6].coordinate[0] = -0.5f;
-	vertex[6].coordinate[1] = -0.5f;
-	vertex[6].coordinate[2] = -0.5f;
-
-	vertex[7].coordinate[0] = 0.5f;
-	vertex[7].coordinate[1] = 0.5f;
-	vertex[7].coordinate[2] = 0.5f;
-
-	vertex[8].coordinate[0] = -0.5f;
-	vertex[8].coordinate[1] = 0.5f;
-	vertex[8].coordinate[2] = -0.5f;
-
-	vertex[9].coordinate[0] = -0.5f;
-	vertex[9].coordinate[1] = -0.5f;
-	vertex[9].coordinate[2] = -0.5f;
-
-	vertex[10].coordinate[0] = 0.5f;
-	vertex[10].coordinate[1] = -0.5f;
-	vertex[10].coordinate[2] = -0.5f;
-
-	vertex[11].coordinate[0] = 0.5f;
-	vertex[11].coordinate[1] = 0.5f;
-	vertex[11].coordinate[2] = -0.5f;
-
-	vertex[12].coordinate[0] = -0.5f;
-	vertex[12].coordinate[1] = 0.5f;
-	vertex[12].coordinate[2] = 0.5f;
-
-	vertex[13].coordinate[0] = 0.5f;
-	vertex[13].coordinate[1] = 0.5f;
-	vertex[13].coordinate[2] = 0.5f;
-
-	vertex[14].coordinate[0] = -0.5f;
-	vertex[14].coordinate[1] = -0.5f;
-	vertex[14].coordinate[2] = -0.5f;
-
-	vertex[15].coordinate[0] = -0.5f;
-	vertex[15].coordinate[1] = 0.5f;
-	vertex[15].coordinate[2] = -0.5f;
-
-	vertex[16].coordinate[0] = -0.5f;
-	vertex[16].coordinate[1] = -0.5f;
-	vertex[16].coordinate[2] = -0.5f;
-
-	vertex[17].coordinate[0] = -0.5f;
-	vertex[17].coordinate[1] = 0.5f;
-	vertex[17].coordinate[2] = 0.5f;
-
-	vertex[18].coordinate[0] = -0.5f;
-	vertex[18].coordinate[1] = -0.5f;
-	vertex[18].coordinate[2] = 0.5f;
-
-	vertex[19].coordinate[0] = 0.5f;
-	vertex[19].coordinate[1] = -0.5f;
-	vertex[19].coordinate[2] = -0.5f;
-
-	vertex[20].coordinate[0] = -0.5f;
-	vertex[20].coordinate[1] = -0.5f;
-	vertex[20].coordinate[2] = -0.5f;
-
-	vertex[21].coordinate[0] = 0.5f;
-	vertex[21].coordinate[1] = -0.5f;
-	vertex[21].coordinate[2] = 0.5f;
-
-	vertex[22].coordinate[0] = 0.5f;
-	vertex[22].coordinate[1] = 0.5f;
-	vertex[22].coordinate[2] = -0.5f;
-
-	vertex[23].coordinate[0] = -0.5f;
-	vertex[23].coordinate[1] = 0.5f;
-	vertex[23].coordinate[2] = -0.5f;
-*/
+	
 	vertex[0].color[0] = 0.1f;
 	vertex[0].color[1] = 1.0f;
 	vertex[0].color[2] = 0.0f;
@@ -307,6 +212,72 @@ void Game::initialize()
 	vertex[7].color[1] = 0.5f;
 	vertex[7].color[2] = 0.5f;
 
+	vertex[8].color[0] = 0.1f;
+	vertex[8].color[1] = 1.0f;
+	vertex[8].color[2] = 0.0f;
+
+	vertex[9].color[0] = 0.2f;
+	vertex[9].color[1] = 1.0f;
+	vertex[9].color[2] = 0.0f;
+
+	vertex[10].color[0] = 0.3f;
+	vertex[10].color[1] = 1.0f;
+	vertex[10].color[2] = 0.0f;
+
+	vertex[11].color[0] = 0.4f;
+	vertex[11].color[1] = 1.0f;
+	vertex[11].color[2] = 0.0f;
+
+	vertex[12].color[0] = 0.5f;
+	vertex[12].color[1] = 1.0f;
+	vertex[12].color[2] = 0.0f;
+
+	vertex[13].color[0] = 0.6f;
+	vertex[13].color[1] = 1.0f;
+	vertex[13].color[2] = 0.0f;
+
+	vertex[14].color[0] = 0.5f;
+	vertex[14].color[1] = 0.5f;
+	vertex[14].color[2] = 0.5f;
+
+	vertex[15].color[0] = -1.0f;
+	vertex[15].color[1] = 0.5f;
+	vertex[15].color[2] = 0.5f;
+
+
+	vertex[16].color[0] = 0.5f;
+	vertex[16].color[1] = 1.0f;
+	vertex[16].color[2] = 0.0f;
+
+	vertex[17].color[0] = 0.6f;
+	vertex[17].color[1] = 1.0f;
+	vertex[17].color[2] = 0.0f;
+
+	vertex[18].color[0] = 0.5f;
+	vertex[18].color[1] = 0.5f;
+	vertex[18].color[2] = 0.5f;
+
+	vertex[19].color[0] = -1.0f;
+	vertex[19].color[1] = 0.5f;
+	vertex[19].color[2] = 0.5f;
+
+	vertex[20].color[0] = 0.4f;
+	vertex[20].color[1] = 1.0f;
+	vertex[20].color[2] = 0.0f;
+
+	vertex[21].color[0] = 0.5f;
+	vertex[21].color[1] = 1.0f;
+	vertex[21].color[2] = 0.0f;
+
+	vertex[22].color[0] = 0.6f;
+	vertex[22].color[1] = 1.0f;
+	vertex[22].color[2] = 0.0f;
+
+	vertex[23].color[0] = 0.5f;
+	vertex[23].color[1] = 0.5f;
+	vertex[23].color[2] = 0.5f;
+
+
 
 	vertex[0].texel[0] = 0.25f;
 	vertex[0].texel[1] = 0.25f;
@@ -332,17 +303,53 @@ void Game::initialize()
 	vertex[7].texel[0] = 0.5f;
 	vertex[7].texel[1] = 0.25f;
 
-	//vertex[8].texel[0] = 0.75f;
-	//vertex[8].texel[1] = 0.5f;
+	vertex[8].texel[0] = 0.75f;
+	vertex[8].texel[1] = 0.5f;
 
-	//vertex[9].texel[0] = 1.0f;
-	//vertex[9].texel[1] = 0.5f;
+	vertex[9].texel[0] = 1.0f;
+	vertex[9].texel[1] = 0.5f;
 
-	//vertex[10].texel[0] = 1.0f;
-	//vertex[10].texel[1] = 0.25f;
+	vertex[10].texel[0] = 1.0f;
+	vertex[10].texel[1] = 0.25f;
 
-	//vertex[11].texel[0] = 0.75f;
-	//vertex[11].texel[1] = 0.25f;
+	vertex[11].texel[0] = 0.75f;
+	vertex[11].texel[1] = 0.25f;
+
+	vertex[12].texel[0] = 0.75f;
+	vertex[12].texel[1] = 0.5f;
+
+	vertex[13].texel[0] = 1.0f;
+	vertex[13].texel[1] = 0.5f;
+
+	vertex[14].texel[0] = 1.0f;
+	vertex[14].texel[1] = 0.25f;
+
+	vertex[15].texel[0] = 0.75f;
+	vertex[15].texel[1] = 0.25f;
+
+	vertex[16].texel[0] = 0.75f;
+	vertex[16].texel[1] = 0.5f;
+
+	vertex[17].texel[0] = 1.0f;
+	vertex[17].texel[1] = 0.5f;
+
+	vertex[18].texel[0] = 1.0f;
+	vertex[18].texel[1] = 0.25f;
+
+	vertex[19].texel[0] = 0.75f;
+	vertex[19].texel[1] = 0.25f;
+
+	vertex[20].texel[0] = 0.75f;
+	vertex[20].texel[1] = 0.5f;
+
+	vertex[21].texel[0] = 1.0f;
+	vertex[21].texel[1] = 0.5f;
+
+	vertex[22].texel[0] = 1.0f;
+	vertex[22].texel[1] = 0.25f;
+
+	vertex[23].texel[0] = 1.0f;
+	vertex[23].texel[1] = 0.25f;
 
 	
 
@@ -351,15 +358,15 @@ void Game::initialize()
 	triangles[0] = 0;   triangles[1] = 1;   triangles[2] = 2;
 	triangles[3] = 2;   triangles[4] = 3;   triangles[5] = 0;
 	triangles[6] = 4;   triangles[7] = 5;   triangles[8] = 6;
-	triangles[9] = 5;   triangles[10] = 7;   triangles[11] = 6;
-	//triangles[12] = 8;   triangles[13] = 9;   triangles[14] = 10;
-	//triangles[15] = 10;   triangles[16] = 11;   triangles[17] = 8;
+	triangles[9] = 7;   triangles[10] = 6;   triangles[11] = 5;
+	triangles[12] = 8;   triangles[13] = 9;   triangles[14] = 10;
+	triangles[15] = 10;   triangles[16] = 11;   triangles[17] = 8;
 	triangles[18] = 12;   triangles[19] = 13;   triangles[20] = 14;
-	triangles[21] = 12;   triangles[22] = 15;   triangles[23] = 14;
-	//triangles[24] = 16;   triangles[25] = 17;   triangles[26] = 18;
-	//triangles[27] = 18;   triangles[28] = 19;   triangles[29] = 16;
-	//triangles[30] = 20;   triangles[31] = 21;   triangles[32] = 22;
-	//triangles[33] = 22;   triangles[34] = 23;   triangles[35] = 20;
+	triangles[21] = 14;   triangles[22] = 15;   triangles[23] = 12;
+	triangles[24] = 16;   triangles[25] = 17;   triangles[26] = 18;
+	triangles[27] = 18;   triangles[28] = 19;   triangles[29] = 16;
+	triangles[30] = 20;   triangles[31] = 21;   triangles[32] = 22;
+	triangles[33] = 22;   triangles[34] = 23;   triangles[35] = 20;
 
 	/* Create a new VBO using VBO id */
 	glGenBuffers(1, vbo);
@@ -499,7 +506,7 @@ void Game::initialize()
 	glLoadIdentity();
 	gluPerspective(45.0, window.getSize().x / window.getSize().y, 1.0, 500.0);
 	glMatrixMode(GL_MODELVIEW);
-	//glEnable(GL_CULL_FACE);
+	glEnable(GL_CULL_FACE);
 }
 
 void Game::update()
