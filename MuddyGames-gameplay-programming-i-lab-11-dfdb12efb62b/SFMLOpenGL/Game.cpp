@@ -117,11 +117,11 @@ void Game::initialize()
 	vertex[7].coordinate[2] = -0.5f;
 
 	vertex[8].coordinate[0] = -0.5f;
-	vertex[8].coordinate[1] = -0.5f;
-	vertex[8].coordinate[2] = 0.5f;
+	vertex[8].coordinate[1] = 0.5f;
+	vertex[8].coordinate[2] = -0.5f;
 
-	vertex[9].coordinate[0] = -0.5f;
-	vertex[9].coordinate[1] = -0.5f;
+	vertex[9].coordinate[0] = 0.5f;
+	vertex[9].coordinate[1] = 0.5f;
 	vertex[9].coordinate[2] = -0.5f;
 
 	vertex[10].coordinate[0] = 0.5f;
@@ -132,21 +132,21 @@ void Game::initialize()
 	vertex[11].coordinate[1] = -0.5f;
 	vertex[11].coordinate[2] = -0.5f;
 
-	vertex[12].coordinate[0] = 0.5f;
+	vertex[12].coordinate[0] = -0.5f;
 	vertex[12].coordinate[1] = -0.5f;
-	vertex[12].coordinate[2] = -0.5f;
+	vertex[12].coordinate[2] = 0.5f;
 
-	vertex[13].coordinate[0] = -0.5f;
+	vertex[13].coordinate[0] = 0.5f;
 	vertex[13].coordinate[1] = -0.5f;
 	vertex[13].coordinate[2] = 0.5f;
 
-	vertex[14].coordinate[0] = -0.5f;
+	vertex[14].coordinate[0] = 0.5f;
 	vertex[14].coordinate[1] = -0.5f;
 	vertex[14].coordinate[2] = -0.5f;
 
-	vertex[15].coordinate[0] = 0.5f;
+	vertex[15].coordinate[0] = -0.5f;
 	vertex[15].coordinate[1] = -0.5f;
-	vertex[15].coordinate[2] = 0.5f;
+	vertex[15].coordinate[2] = -0.5f;
 
 	vertex[16].coordinate[0] = 0.5f;
 	vertex[16].coordinate[1] = -0.5f;
@@ -303,53 +303,53 @@ void Game::initialize()
 	vertex[7].texel[0] = 0.5f;
 	vertex[7].texel[1] = 0.25f;
 
-	vertex[8].texel[0] = 0.75f;
-	vertex[8].texel[1] = 0.5f;
+	vertex[8].texel[0] = 0.25f;
+	vertex[8].texel[1] = 0.25f;
 
-	vertex[9].texel[0] = 1.0f;
-	vertex[9].texel[1] = 0.5f;
+	vertex[9].texel[0] = 0.5f;
+	vertex[9].texel[1] = 0.25f;
 
-	vertex[10].texel[0] = 1.0f;
-	vertex[10].texel[1] = 0.25f;
+	vertex[10].texel[0] = 0.5f;
+	vertex[10].texel[1] = 0.0f;
 
-	vertex[11].texel[0] = 0.75f;
-	vertex[11].texel[1] = 0.25f;
+	vertex[11].texel[0] = 0.25f;
+	vertex[11].texel[1] = 0.0f;
 
-	vertex[12].texel[0] = 0.75f;
+	vertex[12].texel[0] = 0.5f;
 	vertex[12].texel[1] = 0.5f;
 
-	vertex[13].texel[0] = 1.0f;
+	vertex[13].texel[0] = 0.75f;
 	vertex[13].texel[1] = 0.5f;
 
-	vertex[14].texel[0] = 1.0f;
+	vertex[14].texel[0] = 0.75f;
 	vertex[14].texel[1] = 0.25f;
 
-	vertex[15].texel[0] = 0.75f;
+	vertex[15].texel[0] = 0.5f;
 	vertex[15].texel[1] = 0.25f;
 
-	vertex[16].texel[0] = 0.75f;
+	vertex[16].texel[0] = 0.0f;
 	vertex[16].texel[1] = 0.5f;
 
-	vertex[17].texel[0] = 1.0f;
+	vertex[17].texel[0] = 0.25f;
 	vertex[17].texel[1] = 0.5f;
 
-	vertex[18].texel[0] = 1.0f;
+	vertex[18].texel[0] = 0.25f;
 	vertex[18].texel[1] = 0.25f;
 
-	vertex[19].texel[0] = 0.75f;
+	vertex[19].texel[0] = 0.0f;
 	vertex[19].texel[1] = 0.25f;
 
-	vertex[20].texel[0] = 0.75f;
-	vertex[20].texel[1] = 0.5f;
+	vertex[20].texel[0] = 0.25f;
+	vertex[20].texel[1] = 0.75f;
 
-	vertex[21].texel[0] = 1.0f;
-	vertex[21].texel[1] = 0.5f;
+	vertex[21].texel[0] = 0.5f;
+	vertex[21].texel[1] = 0.75f;
 
-	vertex[22].texel[0] = 1.0f;
-	vertex[22].texel[1] = 0.25f;
+	vertex[22].texel[0] = 0.5f;
+	vertex[22].texel[1] = 0.5f;
 
-	vertex[23].texel[0] = 1.0f;
-	vertex[23].texel[1] = 0.25f;
+	vertex[23].texel[0] = 0.25f;
+	vertex[23].texel[1] = 0.5f;
 
 	
 
