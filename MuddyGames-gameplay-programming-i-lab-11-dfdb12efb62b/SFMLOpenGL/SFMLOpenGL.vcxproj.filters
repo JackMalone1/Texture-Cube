@@ -51,4 +51,12 @@
   <ItemGroup>
     <None Include="..\README.md" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="vertexShader.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="fragmentShader.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
 </Project>

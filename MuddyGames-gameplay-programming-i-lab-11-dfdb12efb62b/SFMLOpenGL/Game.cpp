@@ -384,17 +384,8 @@ void Game::initialize()
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
 
 	/* Vertex Shader which would normally be loaded from an external file */
-	const char* vs_src = "#version 400\n\r"
-		"in vec4 sv_position;"
-		"in vec4 sv_color;"
-		"in vec2 sv_texel;"
-		"out vec4 color;"
-		"out vec2 texel;"
-		"void main() {"
-		"	color = sv_color;"
-		"	texel = sv_texel;"
-		"	gl_Position = sv_position;"
-		"}"; //Vertex Shader Src
+	std::string vertexShader = getShader(std::string("vertexShader.txt"));
+	const char* vs_src = &vertexShader[0];
 
 	DEBUG_MSG("Setting Up Vertex Shader");
 
@@ -415,15 +406,8 @@ void Game::initialize()
 	}
 
 	/* Fragment Shader which would normally be loaded from an external file */
-	const char* fs_src = "#version 400\n\r"
-		"uniform sampler2D f_texture;"
-		"in vec4 color;"
-		"in vec2 texel;"
-		"out vec4 fColor;"
-		"void main() {"
-		//"	fColor = vec4(0.0f, 1.0f, 0.0f, 1.0f);"
-		"	fColor = texture(f_texture, texel.st);"
-		"}"; //Fragment Shader Src
+	std::string fragmentShader = getShader(std::string("fragmentShader.txt"));
+	const char* fs_src = &fragmentShader[0];
 
 	DEBUG_MSG("Setting Up Fragment Shader");
 
@@ -508,6 +492,38 @@ void Game::initialize()
 	glMatrixMode(GL_MODELVIEW);
 	glEnable(GL_CULL_FACE);
 }
+
+std::string Game::getShader(std::string& t_filename)
+{
+	std::string string = " ";
+	std::ifstream inputFile(t_filename);
+	if (inputFile.is_open()) {
+		int i = 0;
+		int number = 0;
+
+		while (!inputFile.eof()) {
+			std::string substring = "";
+			std::getline(inputFile, substring);
+			int index = 0;
+			index = substring.find("\\n", index);
+			if (index != std::string::npos)
+			{
+				substring.replace(index, 2, "\n");
+			}
+			index = 0;
+			index = substring.find("\\r", index);
+			if (index != std::string::npos)
+			{
+				substring.replace(index, 2, "\r");
+			}
+			string += substring;
+		}
+	}
+	inputFile.close();
+	return string;
+}
+
+
 
 void Game::update()
 {

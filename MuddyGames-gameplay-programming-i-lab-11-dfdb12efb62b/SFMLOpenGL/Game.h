@@ -16,6 +16,8 @@
 #include <stb_image.h>
 
 
+#include <fstream>
+
 
 class Game
 {
@@ -31,6 +33,8 @@ private:
 	void render();
 	void unload();
 	void processEvents(sf::Event t_event);
+
+	std::string getShader(std::string& t_filename);
 
 	sf::Clock clock;
 	sf::Time elapsed;
