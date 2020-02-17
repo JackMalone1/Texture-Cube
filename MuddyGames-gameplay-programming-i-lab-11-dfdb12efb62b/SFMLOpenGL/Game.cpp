@@ -60,7 +60,7 @@ GLuint	index,		//Index to draw
 		texelID;	// Texel ID
 
 
-const std::string filename = "cube.tga";
+const std::string filename = "dirtBlock.png";
 
 //const std::string filename = "texture.tga";
 
@@ -279,77 +279,77 @@ void Game::initialize()
 
 
 
-	vertex[0].texel[0] = 0.25f;
-	vertex[0].texel[1] = 0.25f;
+	vertex[0].texel[0] = 0.0f;
+	vertex[0].texel[1] = 0.66f;
 
-	vertex[1].texel[0] = 0.5f;
-	vertex[1].texel[1] = 0.25f;
+	vertex[1].texel[0] = 0.25f;
+	vertex[1].texel[1] = 0.66f;
 
-	vertex[2].texel[0] = 0.5f;
-	vertex[2].texel[1] = 0.5f;
+	vertex[2].texel[0] = 0.25f;
+	vertex[2].texel[1] = 0.33f;
 
-	vertex[3].texel[0] = 0.25f;
-	vertex[3].texel[1] = 0.5f;
+	vertex[3].texel[0] = 0.0f;
+	vertex[3].texel[1] = 0.33f;
 
-	vertex[4].texel[0] = 0.5f;
-	vertex[4].texel[1] = 0.5f;
+	vertex[4].texel[0] = 0.25f;
+	vertex[4].texel[1] = 0.66f;
 
-	vertex[5].texel[0] = 0.75f;
-	vertex[5].texel[1] = 0.5f;
+	vertex[5].texel[0] = 0.5f;
+	vertex[5].texel[1] = 0.66f;
 
-	vertex[6].texel[0] = 0.75f;
-	vertex[6].texel[1] = 0.25f;
+	vertex[6].texel[0] = 0.5f;
+	vertex[6].texel[1] = 0.33f;
 
-	vertex[7].texel[0] = 0.5f;
-	vertex[7].texel[1] = 0.25f;
+	vertex[7].texel[0] = 0.25f;
+	vertex[7].texel[1] = 0.33f;
 
-	vertex[8].texel[0] = 0.25f;
-	vertex[8].texel[1] = 0.25f;
+	vertex[8].texel[0] = 0.33f;
+	vertex[8].texel[1] = 0.33f;
 
 	vertex[9].texel[0] = 0.5f;
-	vertex[9].texel[1] = 0.25f;
+	vertex[9].texel[1] = 0.66f;
 
-	vertex[10].texel[0] = 0.5f;
-	vertex[10].texel[1] = 0.0f;
+	vertex[10].texel[0] = 0.75f;
+	vertex[10].texel[1] = 0.66f;
 
-	vertex[11].texel[0] = 0.25f;
-	vertex[11].texel[1] = 0.0f;
+	vertex[11].texel[0] = 0.75f;
+	vertex[11].texel[1] = 0.33f;
 
 	vertex[12].texel[0] = 0.5f;
-	vertex[12].texel[1] = 0.5f;
+	vertex[12].texel[1] = 0.33f;
 
 	vertex[13].texel[0] = 0.75f;
-	vertex[13].texel[1] = 0.5f;
+	vertex[13].texel[1] = 0.66f;
 
-	vertex[14].texel[0] = 0.75f;
-	vertex[14].texel[1] = 0.25f;
+	vertex[14].texel[0] = 1.0f;
+	vertex[14].texel[1] = 0.66f;
 
-	vertex[15].texel[0] = 0.5f;
-	vertex[15].texel[1] = 0.25f;
+	vertex[15].texel[0] = 1.0f;
+	vertex[15].texel[1] = 0.33f;
 
-	vertex[16].texel[0] = 0.0f;
-	vertex[16].texel[1] = 0.5f;
+	vertex[16].texel[0] = 0.25f;
+	vertex[16].texel[1] = 0.33f;
 
-	vertex[17].texel[0] = 0.25f;
-	vertex[17].texel[1] = 0.5f;
+	vertex[17].texel[0] = 0.5f;
+	vertex[17].texel[1] = 0.33f;
 
-	vertex[18].texel[0] = 0.25f;
-	vertex[18].texel[1] = 0.25f;
+	vertex[18].texel[0] = 0.5f;
+	vertex[18].texel[1] = 0.0f;
 
-	vertex[19].texel[0] = 0.0f;
-	vertex[19].texel[1] = 0.25f;
+	vertex[19].texel[0] = 0.25f;
+	vertex[19].texel[1] = 0.0f;
 
 	vertex[20].texel[0] = 0.25f;
-	vertex[20].texel[1] = 0.75f;
+	vertex[20].texel[1] = 1.0f;
 
 	vertex[21].texel[0] = 0.5f;
-	vertex[21].texel[1] = 0.75f;
+	vertex[21].texel[1] = 1.0f;
 
 	vertex[22].texel[0] = 0.5f;
-	vertex[22].texel[1] = 0.5f;
+	vertex[22].texel[1] = 0.66f;
 
 	vertex[23].texel[0] = 0.25f;
-	vertex[23].texel[1] = 0.5f;
+	vertex[23].texel[1] = 0.66f;
 
 	
 
